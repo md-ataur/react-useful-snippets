@@ -1,5 +1,5 @@
 import React from 'react';
-import Accordion from '../../components/SharedUI/Accordion/Accordion';
+import Accordion from '../../components/Snippets/Accordion/Accordion';
 
 const FAQ = () => {
     return (

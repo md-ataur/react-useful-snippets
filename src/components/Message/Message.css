@@ -1,0 +1,20 @@
+.message-modal-content h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 6px 0;
+}
+
+.message-modal-content p {
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(4, 4, 21, 0.6);
+  margin: 0;
+}
+
+.success-alert-text h3 {
+  color: #19b846;
+}
+
+.error-alert-text h3 {
+  color: #ff2121;
+}

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import { useEffect, useState } from 'react';
-import { GrClose, GrMenu } from 'react-icons/gr';
+import { CgClose } from 'react-icons/cg';
+import { GrMenu } from 'react-icons/gr';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 
@@ -30,7 +31,7 @@ const Header = () => {
                             <h1>LOGO</h1>
                         </div>
                         <div className="menu_switch">
-                            <span onClick={switchMenu}>{showMenu ? <GrClose /> : <GrMenu />}</span>
+                            <span onClick={switchMenu}>{showMenu ? <CgClose /> : <GrMenu />}</span>
                         </div>
                     </div>
                 )}
@@ -98,13 +99,13 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/blog"
+                                    to="/dashboard"
                                     className={({ isActive }) =>
                                         isActive ? 'active-class' : 'no-active-class'
                                     }
                                     onClick={switchMenu}
                                 >
-                                    Blog
+                                    Dashboard
                                 </NavLink>
                             </li>
                         </ul>

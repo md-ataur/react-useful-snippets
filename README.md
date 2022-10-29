@@ -2,3 +2,5 @@
 
 - Responsive slide menu
 - Accordion
+- Modal
+- Dashboard
