@@ -1,4 +1,5 @@
 import { BiCategory } from 'react-icons/bi';
+import { IoFastFoodOutline } from 'react-icons/io5';
 import { RiUserFollowLine } from 'react-icons/ri';
 import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
@@ -31,7 +32,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                 </NavLink>
 
                 <NavLink
-                    to="loyalcustomer"
+                    to="customer"
                     className={({ isActive }) =>
                         isActive ? 'menu-active-class' : 'no-active-class'
                     }
@@ -46,7 +47,28 @@ const Sidebar = ({ isSideMenuOpen }) => {
                                     !isSideMenuOpen ? 'sidebar-closed-menu' : 'menu-list-left-text'
                                 }
                             >
-                                Loyal Customer
+                                Customer
+                            </span>
+                        </div>
+                    </div>
+                </NavLink>
+                <NavLink
+                    to="items"
+                    className={({ isActive }) =>
+                        isActive ? 'menu-active-class' : 'no-active-class'
+                    }
+                >
+                    <div className="menu-list ">
+                        <div className="menu-list-left">
+                            <span className="menu-list-left-icon">
+                                <IoFastFoodOutline />
+                            </span>
+                            <span
+                                className={
+                                    !isSideMenuOpen ? 'sidebar-closed-menu' : 'menu-list-left-text'
+                                }
+                            >
+                                Items
                             </span>
                         </div>
                     </div>

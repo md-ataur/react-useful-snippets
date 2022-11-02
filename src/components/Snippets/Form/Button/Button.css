@@ -1,0 +1,64 @@
+.form-button {
+  height: 50px;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 26px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: #ffd89c;
+  color: rgba(4, 4, 21, 0.7);
+  transition: 0.5s;
+}
+
+.form-button:hover {
+  background: #fe9900;
+  transition: 0.3s;
+}
+
+.form-button:disabled {
+  background: rgba(254, 153, 0, 0.17);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.form-button:disabled:hover {
+  background: rgba(254, 153, 0, 0.17);
+}
+
+.form-button {
+  grid-column: 1;
+  margin-top: 18px;
+}
+
+.btn {
+  min-width: 120px;
+  padding: 15px 20px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.btn-add {
+  background: #19b846;
+  color: #fff;
+}
+
+.btn-add:hover {
+  background: #108b33;
+  transition: 0.3s;
+}
+
+.btn-close {
+  background: rgba(4, 13, 23, 0.06);
+  color: rgba(4, 13, 23, 0.5);
+  margin-right: 0 !important;
+}
+
+.btn-close:hover {
+  background: #ddd;
+  transition: 0.3s;
+}

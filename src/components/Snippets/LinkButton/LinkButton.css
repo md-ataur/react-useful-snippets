@@ -1,0 +1,13 @@
+.link-btn-div {
+  display: flex;
+}
+
+.link-btn {
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border-radius: 6px;
+  padding: 14px 30px;
+  transition: 0.3s;
+}

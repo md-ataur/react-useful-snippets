@@ -4,3 +4,6 @@
 - Accordion
 - Modal
 - Dashboard
+- Table
+- Link Button
+- Search bar

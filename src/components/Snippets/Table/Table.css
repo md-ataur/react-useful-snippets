@@ -1,0 +1,44 @@
+.table-area {
+  height: 67vh;
+  overflow-y: scroll;
+}
+
+.table-header {
+  position: sticky;
+  top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead {
+  height: 50px;
+  background: #f7fdfa;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgba(4, 4, 21, 0.6);
+  padding: 10px 15px;
+}
+
+table thead th {
+  display: table-cell;
+  font-weight: 500;
+  text-align: left;
+  padding: 12px 20px;
+}
+
+table tbody td {
+  display: table-cell;
+  padding: 12px 20px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(4, 4, 21, 0.6);
+  border-bottom: 0.6px solid rgba(4, 4, 21, 0.15);
+}
+
+table tbody tr:hover {
+  background: #fbfbfb;
+}

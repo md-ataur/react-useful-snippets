@@ -1,0 +1,18 @@
+.table-main-box {
+  background: #fff;
+  box-shadow: -2px -2px 2px rgb(4 4 21 / 4%), 2px 2px 2px rgb(4 4 21 / 6%);
+  border-radius: 7px;
+}
+
+.table-top-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.table-top-title h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0px;
+}

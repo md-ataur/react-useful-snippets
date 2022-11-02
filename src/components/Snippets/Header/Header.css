@@ -48,11 +48,11 @@
 }
 
 .menu_items li a.active-class {
-  color: #2d5bff;
+  color: #19b846;
 }
 
 .menu_items li a:hover {
-  color: #2d5bff;
+  color: #19b846;
   transition: 0.3s;
 }
 

@@ -26,6 +26,9 @@
     "indent": 0,
     "linebreak-style": 0,
     "jsx-a11y/click-events-have-key-events": 0,
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "react/function-component-definition": [
       "error",
       {
