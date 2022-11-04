@@ -4,7 +4,7 @@ const TextArea = ({ className, label, ...rest }) => {
     return (
         <div className={`${className} form-field`}>
             <label htmlFor={label}>{label}</label>
-            <textarea {...rest}></textarea>
+            <textarea {...rest} />
         </div>
     );
 };

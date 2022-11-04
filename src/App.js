@@ -4,6 +4,7 @@ import Layout from './components/Dashboard/Layout/Layout';
 import Items from './components/Items/Items';
 import LoyalCustomer from './components/LoyalCustomer/LoyalCustomer';
 import Header from './components/Snippets/Header/Header';
+import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                         <Route path="customer" element={<LoyalCustomer />} />
                         <Route path="items" element={<Items />} />
                     </Route>
+                    <Route path="contact" element={<Contact />} />
                 </Routes>
             </div>
         </BrowserRouter>

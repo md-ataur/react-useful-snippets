@@ -7,25 +7,22 @@ const LCustomers = [
         id: 1,
         customerName: 'Robbert',
         phoneNumber: '+880 1826277656',
-        count: 3,
         amount: 500,
-        discount: 100,
+        discount: 50,
     },
     {
         id: 2,
         customerName: 'Jhon Doe',
         phoneNumber: '+880 15454545545',
-        count: 8,
         amount: 400,
-        discount: 120,
+        discount: 30,
     },
     {
         id: 3,
         customerName: 'Jane Doe',
         phoneNumber: '+880 19499549859',
-        count: 6,
         amount: 300,
-        discount: 50,
+        discount: 10,
     },
 ];
 
@@ -95,9 +92,8 @@ const LoyalCustomer = () => {
                             </th>
                             <th>Customer</th>
                             <th>Phone Number</th>
-                            <th>Count</th>
-                            <th>Total Amaount</th>
-                            <th>Total Discount</th>
+                            <th>Amaount</th>
+                            <th>Discount</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -119,7 +115,6 @@ const LoyalCustomer = () => {
                                     </td>
                                     <td>{customer.customerName}</td>
                                     <td>{customer.phoneNumber}</td>
-                                    <td>{customer.count}</td>
                                     <td>
                                         <span>&#2547; {customer.amount}</span>
                                     </td>

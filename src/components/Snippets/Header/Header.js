@@ -75,20 +75,20 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <NavLink
-                                            to="/contact"
+                                            to="/faq"
                                             className={({ isActive }) =>
                                                 isActive ? 'active-class' : 'no-active-class'
                                             }
                                             onClick={switchMenu}
                                         >
-                                            Contact
+                                            FAQ
                                         </NavLink>
                                     </li>
                                 </ul>
                             </li>
                             <li>
                                 <NavLink
-                                    to="/form"
+                                    to="/contact"
                                     className={({ isActive }) =>
                                         isActive ? 'active-class' : 'no-active-class'
                                     }

@@ -3,7 +3,7 @@ import './Form.css';
 
 const Form = ({ children, className, ...rest }) => {
     return (
-        <form className={`${className} `} {...rest}>
+        <form className={`${className}`} {...rest}>
             {children}
         </form>
     );

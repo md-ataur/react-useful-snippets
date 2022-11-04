@@ -13,55 +13,37 @@
 .form-field label {
   margin: 0 0 13px;
   color: rgba(4, 13, 23, 0.8);
+  font-size: 18px;
 }
 
 .form-field input {
-  width: 94%;
   height: 46px;
   border: 1px solid #dcdddf;
   border-radius: 7px;
-  padding: 0 10px;
+  padding: 0 15px;
   font-size: 16px;
   color: rgba(4, 13, 23, 0.8);
 }
 
 .form-field textarea {
-  width: 94%;
   border: 1px solid #dcdddf;
   border-radius: 7px;
-  padding: 15px 10px;
+  padding: 15px 15px;
   font-size: 16px;
   color: rgba(4, 13, 23, 0.8);
 }
 
-.form-input-field {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.form-input-field label {
-  font-weight: 600;
-  font-size: 18px;
-  color: rgb(0 0 0 / 60%);
-  margin-bottom: 10px;
-}
-
-.form-input-field input {
-  background: rgba(4, 4, 21, 0.04);
-  border: 1px solid rgba(4, 4, 21, 0.06);
-  border-radius: 26px;
-  color: rgba(4, 4, 21, 0.8);
-  padding: 12px 23px;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.form-input-field input:focus-visible {
+input:focus-visible {
   outline-offset: 0;
-  outline: none;
+  outline: 1px solid #0666eb;
+}
+
+textarea:focus-visible {
+  outline-offset: 0;
+  outline: 1px solid #0666eb;
 }
 
 .form-button-area {
-  margin-top: 35px;
+  margin-top: 10px;
+  grid-column: 1;
 }
