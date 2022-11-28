@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Table from '../Snippets/Table/Table';
+import { Link } from 'react-router-dom';
 import './Items.css';
 
 const ItemsData = [
@@ -43,11 +44,22 @@ const Items = () => {
                 <td>
                     <span>&#2547; {item.discount}</span>
                 </td>
+                <td>
+                    <div className="action-btn">
+                        <Link className="edit-icon">
+                            Edit
+                        </Link>
+
+                        <button className="delete-icon">
+                            Delete
+                        </button>
+                    </div>
+                </td>
             </tr>
         ));
     }
 
-    const columns = ['Item Name', 'Count', 'Price', 'Discount'];
+    const columns = ['Item Name', 'Count', 'Price', 'Discount', 'Action'];
 
     return (
         <div className="table-main-box">
