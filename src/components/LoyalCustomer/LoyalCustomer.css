@@ -67,3 +67,47 @@ input[type="checkbox" i] {
   width: 16px;
   margin: 0 6px 0 0;
 }
+
+/* button style start */
+.common-button {
+  cursor: pointer;
+  background: rgb(25, 184, 70);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border-radius: 6px;
+  padding: 14px 20px;
+  transition: 0.3s;
+}
+
+.common-button:hover {
+  background: #0ea138;
+}
+
+.action-btn a.edit-icon {
+  color: #19b846;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.edit-icon {
+  background: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #19b846;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.delete-icon {
+  background: no-repeat;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ff0000;
+  padding: 0;
+}
+/* button style end */
