@@ -32,18 +32,18 @@ const LoyalCustomer = () => {
     const [allIDs, setAllIDs] = useState([]);
     const [selectedCustomers, setSelectedCustomers] = useState([]);
 
-    // add checked ids
+    // Add checked ids
     const addToCheckedIds = (id) => {
         const newArray = [...checkedIDs, id];
         setCheckedIDs(newArray);
     };
 
-    // remove checked ids
+    // Remove checked ids
     const removeFromCheckedIds = (id) => {
         setCheckedIDs(checkedIDs.filter((checkedID) => checkedID !== id));
     };
 
-    // selected customers
+    // Selected customers
     const selectCustomer = () => {
         if (loyalCustomers && checkedIDs) {
             const selectedLoyalCustomers = loyalCustomers.filter(

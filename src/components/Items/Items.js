@@ -1,6 +1,9 @@
+/* eslint-disable react/button-has-type */
 import { useState } from 'react';
-import Table from '../Snippets/Table/Table';
+import { FiEdit } from 'react-icons/fi';
+import { RiDeleteBin6Line } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
+import Table from '../Snippets/Table/Table';
 import './Items.css';
 
 const ItemsData = [
@@ -47,11 +50,10 @@ const Items = () => {
                 <td>
                     <div className="action-btn">
                         <Link className="edit-icon">
-                            Edit
+                            <FiEdit />
                         </Link>
-
                         <button className="delete-icon">
-                            Delete
+                            <RiDeleteBin6Line />
                         </button>
                     </div>
                 </td>
