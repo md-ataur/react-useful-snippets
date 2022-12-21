@@ -15,12 +15,17 @@ const Header = () => {
     }
 
     useEffect(() => {
-        window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
+        if (typeof window !== 'undefined') {
+            // Client-side-only code
+            window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
+        }
     }, []);
 
-    window.addEventListener('resize', () => {
-        window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
-    });
+    if (typeof window !== 'undefined') {
+        window.addEventListener('resize', () => {
+            window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
+        });
+    }
 
     return (
         <header>
