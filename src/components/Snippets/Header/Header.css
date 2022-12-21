@@ -1,4 +1,4 @@
-.header-section {
+.header_section {
   position: fixed;
   width: 100%;
   background: #fff;
@@ -28,7 +28,6 @@
   padding: 0 40px 0 0;
   margin: 0;
   list-style: none;
-  display: inline-block;
 }
 
 .menu_items > li:last-child {
@@ -37,7 +36,7 @@
 
 .menu_items li > a {
   display: block;
-  padding: 25px 0;
+  padding: 22px 0;
   font-size: 16px;
   cursor: pointer;
   font-family: "Nunito", sans-serif;
@@ -95,7 +94,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .mobile-menu {
+  .mobile_menu {
     display: flex;
     align-items: center;
     width: 100%;
@@ -106,7 +105,7 @@
     border-bottom: 1px solid #d3d3d3;
   }
 
-  .mobile-menu .logo {
+  .mobile_menu .logo {
     padding: 0 20px;
   }
 
@@ -133,7 +132,8 @@
 
   .nav_container {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    height: 100vh;
     position: absolute;
     padding: 10px 20px;
     opacity: 0;
@@ -161,7 +161,7 @@
   }
 
   .menu_items li > a {
-    padding: 17px 0;
+    padding: 16px 0;
   }
 
   .null .menu_items {
@@ -174,6 +174,10 @@
     display: block;
     text-align: center;
   }
+
+  .menu_items li {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -182,6 +186,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .menu_items li {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -189,5 +197,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .menu_items li {
+    display: inline-block;
   }
 }
