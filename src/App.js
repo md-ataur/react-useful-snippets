@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import Layout from './components/Dashboard/Layout/Layout';
 import Items from './components/Items/Items';
 import LoyalCustomer from './components/LoyalCustomer/LoyalCustomer';
@@ -14,7 +15,8 @@ function App() {
             <div className="main">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="dashboard" element={<Layout />}>
+                    <Route path="/dashboard" element={<Layout />}>
+                        <Route path="" element={<Dashboard />} />
                         <Route path="customer" element={<LoyalCustomer />} />
                         <Route path="items" element={<Items />} />
                     </Route>

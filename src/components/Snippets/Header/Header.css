@@ -1,3 +1,7 @@
+.header_area {
+  height: 80px;
+}
+
 .header_section {
   position: fixed;
   width: 100%;
@@ -157,7 +161,7 @@
   }
 
   .menu_items {
-    margin: 20px 0 0;
+    margin: 12px 0 0;
   }
 
   .menu_items li > a {

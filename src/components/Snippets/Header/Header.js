@@ -9,14 +9,12 @@ const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
     const [isDesktop, setIsDesktop] = useState();
 
-    // Custom function
     function switchMenu() {
         setShowMenu(!showMenu);
     }
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-            // Client-side-only code
             window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
         }
     }, []);
@@ -28,10 +26,10 @@ const Header = () => {
     }
 
     return (
-        <header>
+        <header className="header_area">
             <div className="nav_bar">
                 {!isDesktop && (
-                    <div className="mobile-menu">
+                    <div className="mobile_menu">
                         <div className="logo">
                             <h1>LOGO</h1>
                         </div>
@@ -41,7 +39,7 @@ const Header = () => {
                     </div>
                 )}
 
-                <div className="header-section">
+                <div className="header_section">
                     <div className={`nav_container ${showMenu ? 'menu_active' : null}`}>
                         <div className="logo">
                             <h1>LOGO</h1>
@@ -66,7 +64,7 @@ const Header = () => {
                             <li>
                                 <Link>Others</Link>
 
-                                <ul className="sub-menu">
+                                <ul className="sub_menu">
                                     <li>
                                         <NavLink
                                             to="/support"

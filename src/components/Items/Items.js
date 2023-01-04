@@ -64,12 +64,12 @@ const Items = () => {
     const columns = ['Item Name', 'Count', 'Price', 'Discount', 'Action'];
 
     return (
-        <div className="table-main-box">
+        <>
             <div className="table-top-title">
                 <h3>Items</h3>
             </div>
             <Table isLoading={isLoading} message={message} fields={fields} columns={columns} />
-        </div>
+        </>
     );
 };
 

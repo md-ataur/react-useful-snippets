@@ -47,7 +47,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                                     !isSideMenuOpen ? 'sidebar-closed-menu' : 'menu-list-left-text'
                                 }
                             >
-                                Customer
+                                Loyal Customer
                             </span>
                         </div>
                     </div>

@@ -38,11 +38,6 @@ p {
   margin: 0;
 }
 
-.main {
-  padding: 90px 0 0;
-  min-height: 80vh;
-}
-
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -51,10 +46,6 @@ p {
 
 /* Small devices (Phones) */
 @media only screen and (max-width: 767px) {
-  .main {
-    padding: 80px 0 0;
-  }
-
   .header-section {
     position: unset;
   }
@@ -62,9 +53,6 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .main {
-    padding: 140px 0 0;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */

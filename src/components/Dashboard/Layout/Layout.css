@@ -1,0 +1,40 @@
+.page {
+  flex-grow: 1;
+  margin-left: 250px;
+  padding: 20px 30px 20px 30px;
+  position: relative;
+  transition: all 0.1s ease-in-out;
+  overflow: hidden;
+  min-height: 90vh;
+  background: rgb(247 247 247);
+}
+
+.side-menu-open {
+  margin-left: 96px !important;
+}
+
+.wrapper {
+  background: #fff;
+  box-shadow: -2px -2px 2px rgb(4 4 21 / 4%), 2px 2px 2px rgb(4 4 21 / 6%);
+  border-radius: 5px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 22px;
+  margin: 0 0 20px;
+  border-radius: 6px;
+}
+
+.page-header .menu-icon {
+  margin: 0 30px 0 0;
+}
+
+.menu-icon span {
+  display: flex;
+  cursor: pointer;
+  font-size: 24px;
+}

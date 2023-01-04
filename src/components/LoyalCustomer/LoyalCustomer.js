@@ -66,7 +66,7 @@ const LoyalCustomer = () => {
     }, [loyalCustomers, checkedIDs]);
 
     return (
-        <div className="table-main-box">
+        <>
             <div className="table-top-title">
                 <h3>Loyal Customer</h3>
                 <button onClick={selectCustomer} className="btn-add btn">
@@ -126,7 +126,7 @@ const LoyalCustomer = () => {
                     </tbody>
                 </table>
             </div>
-        </div>
+        </>
     );
 };
 
