@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Fiverr",
+    "logo": "https://i.ibb.co/9gDQ0J5/pngwing-com.png",
+    "url": null,
+    "createdAt": "2023-04-26T05:52:10.731Z",
+    "updatedAt": "2023-04-26T05:52:49.468Z"
+  },
+  {
+    "id": 2,
+    "name": "Linkedin",
+    "logo": "https://i.ibb.co/ZKkygRc/LI-Logo.png",
+    "url": null,
+    "createdAt": "2023-04-26T05:52:15.672Z",
+    "updatedAt": "2023-04-26T05:52:55.954Z"
+  },
+  {
+    "id": 3,
+    "name": "Github",
+    "logo": "https://i.ibb.co/VvjXTyy/Git-Hub-Logo.png",
+    "url": null,
+    "createdAt": "2023-04-26T05:52:18.865Z",
+    "updatedAt": "2023-04-26T05:52:59.606Z"
+  },
+  {
+    "id": 4,
+    "name": "Dribble",
+    "logo": "https://i.ibb.co/wzDT08F/dribbble-logo.png",
+    "url": null,
+    "createdAt": "2023-04-26T05:52:19.627Z",
+    "updatedAt": "2023-04-26T05:52:45.489Z"
+  },
+  {
+    "id": 5,
+    "name": "Facebook",
+    "logo": "https://1000logos.net/wp-content/uploads/2016/11/fb-logo.jpg",
+    "url": null,
+    "createdAt": "2023-04-26T05:52:46.617Z",
+    "updatedAt": "2023-04-26T05:52:46.617Z"
+  },
+  {
+    "id": 6,
+    "name": "Tiktok",
+    "logo": "https://static.vecteezy.com/system/resources/previews/006/057/996/original/tiktok-logo-on-transparent-background-free-vector.jpg",
+    "url": null,
+    "createdAt": "2023-04-26T11:08:28.087Z",
+    "updatedAt": "2023-04-26T11:08:28.087Z"
+  }
+]

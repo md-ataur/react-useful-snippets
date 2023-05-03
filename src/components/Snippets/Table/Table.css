@@ -8,6 +8,10 @@
   top: 0;
 }
 
+.action-btn {
+  display: flex;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;

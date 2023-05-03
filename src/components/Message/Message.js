@@ -1,6 +1,6 @@
-import msgIcon from '../../images/success-msg-icon.svg';
-import MessageModal from '../Snippets/Modal/MessageModal/MessageModal';
-import './Message.css';
+import msgIcon from "../../images/success-msg-icon.svg";
+import MessageModal from "../Snippets/Modal/MessageModal/MessageModal";
+import "./Message.css";
 
 const Message = ({ onClose, title, subtitle, className }) => {
     return (

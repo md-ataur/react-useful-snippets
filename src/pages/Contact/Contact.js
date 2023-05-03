@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
-import Button from '../../components/Snippets/Form/Button/Button';
-import Form from '../../components/Snippets/Form/Form';
-import FormTitle from '../../components/Snippets/Form/FormTitle/FormTitle';
-import TextArea from '../../components/Snippets/Form/TextArea/TextArea';
-import TextInput from '../../components/Snippets/Form/TextInput/TextInput';
-import TextSelect from '../../components/Snippets/Form/TextSelect/TextSelect';
+import React from "react";
+import Button from "../../components/Snippets/Form/Button/Button";
+import Form from "../../components/Snippets/Form/Form";
+import FormTitle from "../../components/Snippets/Form/FormTitle/FormTitle";
+import TextArea from "../../components/Snippets/Form/TextArea/TextArea";
+import TextInput from "../../components/Snippets/Form/TextInput/TextInput";
+import TextSelect from "../../components/Snippets/Form/TextSelect/TextSelect";
 
 const Contact = () => {
     return (

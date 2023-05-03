@@ -1,5 +1,5 @@
-import { BiSearch } from 'react-icons/bi';
-import './Search.css';
+import { BiSearch } from "react-icons/bi";
+import "./Search.css";
 
 const Search = ({ itemSearch, placeholder }) => {
     return (

@@ -10,7 +10,7 @@
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.6.0",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "react-shimmer": "^3.2.0",
@@ -21,8 +21,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
+    "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
+    "format": "prettier --check **/*.{js,jsx,ts,tsx}",
+    "format:fix": "prettier --write src/**/*.{js,jsx,ts,tsx,css}"
   },
   "eslintConfig": {
     "extends": [
@@ -43,14 +45,14 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.25.0",
+    "eslint": "^8.39.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2"
   }
 }

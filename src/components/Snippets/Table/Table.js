@@ -1,6 +1,6 @@
-import React from 'react';
-import { Shimmer } from 'react-shimmer';
-import './Table.css';
+import React from "react";
+import { Shimmer } from "react-shimmer";
+import "./Table.css";
 
 const Table = ({ isLoading, message, fields, columns }) => {
     const columnFields = columns.map((column) => <th key={column}>{column}</th>);

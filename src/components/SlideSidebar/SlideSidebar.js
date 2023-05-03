@@ -1,5 +1,5 @@
-import React from 'react';
-import SidebarModal from '../Snippets/Modal/SidebarModal/SidebarModal';
+import React from "react";
+import SidebarModal from "../Snippets/Modal/SidebarModal/SidebarModal";
 
 const SlideSidebar = ({ onClose }) => {
     return (

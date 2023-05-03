@@ -1,26 +1,26 @@
 /* eslint-disable react/button-has-type */
-import { useEffect, useState } from 'react';
-import './LoyalCustomer.css';
+import { useEffect, useState } from "react";
+import "./LoyalCustomer.css";
 
 const LCustomers = [
     {
         id: 1,
-        customerName: 'Robbert',
-        phoneNumber: '+880 1826277656',
+        customerName: "Robbert",
+        phoneNumber: "+880 1826277656",
         amount: 500,
         discount: 50,
     },
     {
         id: 2,
-        customerName: 'Jhon Doe',
-        phoneNumber: '+880 15454545545',
+        customerName: "Jhon Doe",
+        phoneNumber: "+880 15454545545",
         amount: 400,
         discount: 30,
     },
     {
         id: 3,
-        customerName: 'Jane Doe',
-        phoneNumber: '+880 19499549859',
+        customerName: "Jane Doe",
+        phoneNumber: "+880 19499549859",
         amount: 300,
         discount: 10,
     },

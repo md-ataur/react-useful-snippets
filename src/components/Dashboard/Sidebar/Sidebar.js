@@ -1,18 +1,18 @@
-import { BiCategory } from 'react-icons/bi';
-import { IoFastFoodOutline } from 'react-icons/io5';
-import { RiUserFollowLine } from 'react-icons/ri';
-import { NavLink } from 'react-router-dom';
-import './Sidebar.css';
+import { BiCategory } from "react-icons/bi";
+import { IoFastFoodOutline } from "react-icons/io5";
+import { RiUserFollowLine } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
+import "./Sidebar.css";
 
 const Sidebar = ({ isSideMenuOpen }) => {
     return (
-        <div className={!isSideMenuOpen ? 'sidebar-closed sidebar' : 'sidebar'}>
+        <div className={!isSideMenuOpen ? "sidebar-closed sidebar" : "sidebar"}>
             <div className="nav-menu">
                 <NavLink
                     to="/dashboard"
                     end
                     className={({ isActive }) =>
-                        isActive ? 'menu-active-class' : 'no-active-class'
+                        isActive ? "menu-active-class" : "no-active-class"
                     }
                 >
                     <div className="menu-list">
@@ -22,7 +22,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                             </span>
                             <span
                                 className={
-                                    !isSideMenuOpen ? 'sidebar-closed-menu' : 'menu-list-left-text'
+                                    !isSideMenuOpen ? "sidebar-closed-menu" : "menu-list-left-text"
                                 }
                             >
                                 Dashboard
@@ -34,7 +34,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                 <NavLink
                     to="customer"
                     className={({ isActive }) =>
-                        isActive ? 'menu-active-class' : 'no-active-class'
+                        isActive ? "menu-active-class" : "no-active-class"
                     }
                 >
                     <div className="menu-list ">
@@ -44,7 +44,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                             </span>
                             <span
                                 className={
-                                    !isSideMenuOpen ? 'sidebar-closed-menu' : 'menu-list-left-text'
+                                    !isSideMenuOpen ? "sidebar-closed-menu" : "menu-list-left-text"
                                 }
                             >
                                 Loyal Customer
@@ -55,7 +55,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                 <NavLink
                     to="items"
                     className={({ isActive }) =>
-                        isActive ? 'menu-active-class' : 'no-active-class'
+                        isActive ? "menu-active-class" : "no-active-class"
                     }
                 >
                     <div className="menu-list ">
@@ -65,7 +65,7 @@ const Sidebar = ({ isSideMenuOpen }) => {
                             </span>
                             <span
                                 className={
-                                    !isSideMenuOpen ? 'sidebar-closed-menu' : 'menu-list-left-text'
+                                    !isSideMenuOpen ? "sidebar-closed-menu" : "menu-list-left-text"
                                 }
                             >
                                 Items

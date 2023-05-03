@@ -1,5 +1,5 @@
-import React from 'react';
-import Accordion from '../../components/Snippets/Accordion/Accordion';
+import React from "react";
+import Accordion from "../../components/Snippets/Accordion/Accordion";
 
 const FAQ = () => {
     return (

@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
-import { useEffect, useState } from 'react';
-import { CgClose } from 'react-icons/cg';
-import { GrMenu } from 'react-icons/gr';
-import { Link, NavLink } from 'react-router-dom';
-import './Header.css';
+import { useEffect, useState } from "react";
+import { CgClose } from "react-icons/cg";
+import { GrMenu } from "react-icons/gr";
+import { Link, NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -14,13 +14,13 @@ const Header = () => {
     }
 
     useEffect(() => {
-        if (typeof window !== 'undefined') {
+        if (typeof window !== "undefined") {
             window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
         }
     }, []);
 
-    if (typeof window !== 'undefined') {
-        window.addEventListener('resize', () => {
+    if (typeof window !== "undefined") {
+        window.addEventListener("resize", () => {
             window.innerWidth > 767 ? setIsDesktop(true) : setIsDesktop(false);
         });
     }
@@ -31,7 +31,7 @@ const Header = () => {
                 {!isDesktop && (
                     <div className="mobile_menu">
                         <div className="logo">
-                            <h1>LOGO</h1>
+                            <h1 className="font-bold text-2xl">LOGO</h1>
                         </div>
                         <div className="menu_switch">
                             <span onClick={switchMenu}>{showMenu ? <CgClose /> : <GrMenu />}</span>
@@ -40,9 +40,9 @@ const Header = () => {
                 )}
 
                 <div className="header_section">
-                    <div className={`nav_container ${showMenu ? 'menu_active' : null}`}>
+                    <div className={`nav_container ${showMenu ? "menu_active" : null}`}>
                         <div className="logo">
-                            <h1>LOGO</h1>
+                            <h1 className="font-bold text-2xl">LOGO</h1>
                         </div>
                         <ul className="menu_items">
                             <li>
@@ -54,7 +54,7 @@ const Header = () => {
                                 <NavLink
                                     to="/about"
                                     className={({ isActive }) =>
-                                        isActive ? 'active-class' : 'no-active-class'
+                                        isActive ? "active-class" : "no-active-class"
                                     }
                                     onClick={switchMenu}
                                 >
@@ -69,7 +69,7 @@ const Header = () => {
                                         <NavLink
                                             to="/support"
                                             className={({ isActive }) =>
-                                                isActive ? 'active-class' : 'no-active-class'
+                                                isActive ? "active-class" : "no-active-class"
                                             }
                                             onClick={switchMenu}
                                         >
@@ -80,7 +80,7 @@ const Header = () => {
                                         <NavLink
                                             to="/faq"
                                             className={({ isActive }) =>
-                                                isActive ? 'active-class' : 'no-active-class'
+                                                isActive ? "active-class" : "no-active-class"
                                             }
                                             onClick={switchMenu}
                                         >
@@ -93,7 +93,7 @@ const Header = () => {
                                 <NavLink
                                     to="/contact"
                                     className={({ isActive }) =>
-                                        isActive ? 'active-class' : 'no-active-class'
+                                        isActive ? "active-class" : "no-active-class"
                                     }
                                     onClick={switchMenu}
                                 >
@@ -104,7 +104,7 @@ const Header = () => {
                                 <NavLink
                                     to="/dashboard"
                                     className={({ isActive }) =>
-                                        isActive ? 'active-class' : 'no-active-class'
+                                        isActive ? "active-class" : "no-active-class"
                                     }
                                     onClick={switchMenu}
                                 >

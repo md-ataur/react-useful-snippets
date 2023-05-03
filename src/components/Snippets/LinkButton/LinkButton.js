@@ -1,4 +1,4 @@
-import './LinkButton.css';
+import "./LinkButton.css";
 
 const LinkButton = ({ linkBtn }) => {
     const { text, btnBG, btnColor, link } = linkBtn;

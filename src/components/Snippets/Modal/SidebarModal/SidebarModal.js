@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-import { useState } from 'react';
-import { CgClose } from 'react-icons/cg';
-import './SidebarModal.css';
+import { useState } from "react";
+import { CgClose } from "react-icons/cg";
+import "./SidebarModal.css";
 
 const SidebarModal = ({ onClose, children }) => {
     const [closingModal, setClosingModal] = useState(false);
@@ -16,7 +15,7 @@ const SidebarModal = ({ onClose, children }) => {
     return (
         <div className="sidebar-modal" onClick={(e) => e.stopPropagation()}>
             <div
-                className={`modal-full-content ${closingModal ? 'close_modal' : ''}`}
+                className={`modal-full-content ${closingModal ? "close_modal" : ""}`}
                 onClick={(e) => e.stopPropagation()} /* stop event bubbling */
             >
                 <div className="modal-inner-content">

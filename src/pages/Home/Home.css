@@ -1,11 +1,8 @@
-.accordion-area {
-  max-width: 400px;
-}
-
 .section-one {
-  display: flex;
-  gap: 30px;
+  display: grid;
   margin: 0 0 60px;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .btn {
@@ -15,7 +12,7 @@
   cursor: pointer;
   font-size: 16px;
   margin: 0 5px;
-  background: #ebebeb;
+  background: #ebebeb !important;
 }
 
 .btn:hover {

@@ -37,3 +37,7 @@
   color: #adadad;
   font-size: 26px;
 }
+
+.success-alert-text img {
+  margin: 0 auto;
+}
